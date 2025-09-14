@@ -4,6 +4,7 @@ import socket
 import random
 
 
+
 dev_excuses = [
     "It worked on my machine.",
     "I thought I fixed that.",
@@ -52,4 +53,5 @@ def images_frontend(filename):
 if __name__ == '__main__':
 
     app.run(host="0.0.0.0")
+
 
